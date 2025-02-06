@@ -23,7 +23,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/RSSNext/Follow"
+        "github": "https://github.com/RSSNext/Follow",
+        "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {
