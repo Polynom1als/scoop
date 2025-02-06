@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0-beta.2",
+    "version": "0.3.3-beta.0",
     "description": "Next generation information browser. ",
     "homepage": "https://follow.is/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RSSNext/Follow/releases/download/v0.2.0-beta.2/Follow-0.2.0-beta.2-windows-x64.exe#/dl.7z_",
-            "hash": "3cfb8e00292b67e55835b8653bffd799eb1f8919a038065cd6a5bd5be8b1b9fa"
+            "url": "https://github.com/RSSNext/Follow/releases/download/v0.3.3-beta.0/Follow-0.3.3-beta.0-windows-x64.exe#/dl.7z_",
+            "hash": "505afdd7877119633dc66658a92c050f891509d547a8703d18785e0afae2a5d1"
         }
     },
     "pre_install": [
