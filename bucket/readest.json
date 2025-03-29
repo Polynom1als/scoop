@@ -1,16 +1,16 @@
 {
-    "version": "0.9.27",
+    "version": "0.9.28",
     "description": "Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.",
     "homepage": "https://github.com/readest/readest",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/readest/readest/releases/download/v0.9.27/Readest_0.9.27_x64-setup.exe#/dl.7z",
-            "hash": "f41fb9ad596b69477452ad1543dfa23517ecfd09813b8888d190d9febf41b60b"
+            "url": "https://github.com/readest/readest/releases/download/v0.9.28/Readest_0.9.28_x64-setup.exe#/dl.7z",
+            "hash": "0032033ce9c6c486ce3b71eec732e694a94ecc3da91a5c1d01772b2f29c2d8ca"
         },
         "arm64": {
-            "url": "https://github.com/readest/readest/releases/download/v0.9.27/Readest_0.9.27_arm64-setup.exe#/dl.7z",
-            "hash": "28be67b771a3a937aabc0c0a66e40797ac11df740a85bd5a2b26209c3137c133"
+            "url": "https://github.com/readest/readest/releases/download/v0.9.28/Readest_0.9.28_arm64-setup.exe#/dl.7z",
+            "hash": "b43736ce37f7cf077d397658b06fda69300aab307c1c8eb9a6ac831a31ec6413"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
