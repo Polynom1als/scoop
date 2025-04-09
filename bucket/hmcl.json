@@ -2,13 +2,21 @@
     "homepage": "https://github.com/HMCL-dev/HMCL",
     "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular",
     "license": "GPL-3.0-only",
-    "version": "release-3.6.12",
+    "version": "3.6.12",
     "url": "https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.12/HMCL-3.6.12.exe#/hmcl.exe",
     "hash": "33445ed110ea0fcf1f33253a6926460da3d943afe1b23b4874ff16a1066aad58",
     "bin": "hmcl.exe",
-    "shortcuts": [["hmcl.exe", "HMCL"]],
+    "shortcuts": [
+        [
+            "hmcl.exe",
+            "HMCL"
+        ]
+    ],
     "suggest": {
-        "JDK": ["java/oraclejdk", "java/openjdk"]
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
     },
     "pre_install": [
         "function ensureFile([String] $name) {",
@@ -18,8 +26,10 @@
         "}",
         "ensureFile 'hmcl.json'"
     ],
-    "persist": ["hmcl.json", ".minecraft"],
-
+    "persist": [
+        "hmcl.json",
+        ".minecraft"
+    ],
     "checkver": {
         "url": "https://github.com/HMCL-dev/HMCL/releases/latest",
         "regex": "release-(\\d+\\.\\d+\\.\\d+)"
