@@ -2,9 +2,9 @@
     "homepage": "https://github.com/HMCL-dev/HMCL",
     "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular",
     "license": "GPL-3.0-only",
-    "version": "3.6.16",
-    "url": "https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.16/HMCL-3.6.16.exe#/hmcl.exe",
-    "hash": "c352fea976c413c4a3daf962520c67efd25964fb8c415be2e5e176b43a5efd63",
+    "version": "3.6.17",
+    "url": "https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.17/HMCL-3.6.17.exe#/hmcl.exe",
+    "hash": "ce8e8c342788e03be44c04d8e2cc17973535fbad54babc36d7f6289e223b7376",
     "bin": "hmcl.exe",
     "shortcuts": [
         [
