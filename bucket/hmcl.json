@@ -32,9 +32,9 @@
     ],
     "checkver": {
         "url": "https://github.com/HMCL-dev/HMCL/releases/latest",
-        "regex": "release-(\\d+\\.\\d+\\.\\d+)"
+        "regex": "v(\\d+\\.\\d+\\.\\d+)"
     },
     "autoupdate": {
-        "url": "https://github.com/HMCL-dev/HMCL/releases/download/release-$version/HMCL-$version.exe#/hmcl.exe"
+        "url": "https://github.com/HMCL-dev/HMCL/releases/download/v$version/HMCL-$version.exe#/hmcl.exe"
     }
 }
