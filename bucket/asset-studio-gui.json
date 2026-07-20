@@ -3,10 +3,12 @@
   "description": "GUI tool for exploring, extracting, and exporting Unity assets and asset bundles.",
   "homepage": "https://github.com/aelurum/AssetStudio",
   "license": "MIT",
+  "extract_dir": "AssetStudioModGUI_net9_win64",
   "architecture": {
     "64bit": {
       "url": "https://github.com/aelurum/AssetStudio/releases/download/v0.19.0/AssetStudioModGUI_net9_win64.zip",
-      "hash": "acba8d024fbcb625b8f6a4cbc9e3c83e6274abb637d1a11c3c0615a9d45305af"
+      "hash": "acba8d024fbcb625b8f6a4cbc9e3c83e6274abb637d1a11c3c0615a9d45305af",
+      "extract_dir": "AssetStudioModGUI_net9_win64"
     }
   },
   "shortcuts": [
